@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Covid-19 Info Boards Login</title>
@@ -8,19 +9,21 @@
        <div class = "form-box">
             <div class = "button-box">
                 <div id = "btn"></div>
-                <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                <button type="button" id="toggle-btn1" class="toggle-btn" onclick="login()">Log in</button>
                 <button type="button" class="toggle-btn" onclick="register()">Register</button>
             </div>
             <form id = "login" class = "input-group">
-                <input type = "text" class = "input-field" placeholder="Username" required>
-                <input type = "text" class = "input-field" placeholder="Password" required>
-                <input type = "checkbox" class = "check-box"><span>Remember Me</span>
+                <input type = "text" class = "input-field" placeholder="Username">
+                <input type = "text" class = "input-field" placeholder="Password">
+                <input type = "checkbox" class = "check-box"><span id="remember-me-span">Remember Me</span>
                 <button type = "submit" class = "submit-btn">Log in</button>
+                <button type="submit" class = "skip-btn">Skip</button>
             </form>
             <form id = "register" class = "input-group">
                 <input type = "text" class = "input-field" placeholder="Username" required>
+                <input type = "text" class = "input-field" placeholder="Password" required>
                 <input type = "email" class = "input-field" placeholder="Email" required>
-                <input type = "checkbox" class = "check-box"><span>I agree to the terms & condtions</span>
+                <input type = "checkbox" class = "check-box" required><span id="agree-terms-span">I agree to the terms & condtions</span>
                 <button type = "submit" class = "submit-btn">Log in</button>
             </form>
         </div>
