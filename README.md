@@ -1,4 +1,19 @@
-# a99 Final Project
+# a99-ENIF Final Project - COVID-19 Info Dashboard
+
+## Features
+- Sign up page: including name, city, state
+- Info to include: cases, deaths, recovered, areas where COVID is spreading fast-
+- Show nationwide info before logging in, add state info after logging in
+- List counties with highest or lowest rates
+
+
+## Team members
+- Abraham: Design lead
+- Ethan: Database lead
+- Kabeer: Backend Lead
+- Shiying: Frontend Lead
+- Haobu: Frontend Lead 
+
 
 ## UPDATE
 
