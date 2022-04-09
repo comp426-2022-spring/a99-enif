@@ -1,5 +1,8 @@
 # a99-ENIF Final Project - COVID-19 Info Dashboard
 
+## Introduction
+
+
 ## Features
 - Sign up page: including name, city, state
 - Info to include: cases, deaths, recovered, areas where COVID is spreading fast-
