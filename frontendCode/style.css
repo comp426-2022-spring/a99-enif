@@ -20,6 +20,7 @@
     margin: 6% auto;
     background: rgb(250, 233, 233);
     padding: 5px;
+    overflow: hidden;
 }
 .button-box{
     width: 220px;
