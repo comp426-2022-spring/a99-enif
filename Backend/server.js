@@ -11,6 +11,8 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 app.use(bodyParser.json())
 
+// app.use(express.static('./public'));
+
 require("./app/routes/covid-routes.js")(app)
 
 app.listen(8080, () => {
