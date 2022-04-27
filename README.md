@@ -1,14 +1,13 @@
 # a99-ENIF Final Project - COVID-19 Info Dashboard
 
 ## Introduction
+This website is intended to serve as a COVID-19 dashboard. Users can see COVID-19 statistics for the U.S., and log into an account to see statistics for their state.
 
-
-## Features
+## Planned Features
 - Sign up page: including name, city, state
 - Info to include: cases, deaths, recovered, areas where COVID is spreading fast-
 - Show nationwide info before logging in, add state info after logging in
 - List counties with highest or lowest rates
-
 
 ## Team members
 - Abraham: Design lead
@@ -17,18 +16,9 @@
 - Shiying: Frontend Lead
 - Haobu: Frontend Lead 
 
-
-## UPDATE
-
-You don't need to accept this assignment since you are already assigned to teams. So, there is not assignment invite link for a99.
-
-## Summary 
-
-COMP426 final project template repository.
-All your code and documentation goes here.
-Change this text to be a brief description of your final project.
-Put the name of your project in the header above.
-You will change everything below to be the main technical documentation, as outlined below.
+## Links
+- API endpoint documentation: https://github.com/comp426-2022-spring/a99-enif/blob/documentation/docs/api_endpoints.md
+- Initial wireframe: https://github.com/comp426-2022-spring/a99-enif/blob/documentation/docs/planning/wireframe.JPG
 
 ## First steps
 
