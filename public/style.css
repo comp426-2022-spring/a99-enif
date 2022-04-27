@@ -7,7 +7,7 @@
 .background{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4), transparent), url("background.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4), transparent), url("./assets/background.jpg");
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -77,7 +77,7 @@
     min-width: 180px;
     margin: 0 auto;
     border-bottom: 1px solid #999;
-    background-color: transparent，#999;
+    background-color: transparent #999;
     z-index: 10;
 }
 .custom-select select {
