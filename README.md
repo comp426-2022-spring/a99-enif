@@ -20,7 +20,13 @@ This website is intended to serve as a COVID-19 dashboard. Users can see COVID-1
 - [API endpoint documentation](https://github.com/comp426-2022-spring/a99-enif/blob/documentation/docs/api_endpoints.md)
 - [Initial wireframe](https://github.com/comp426-2022-spring/a99-enif/blob/documentation/docs/planning/wireframe.JPG)
 
-## Installation requirements/instructions
+## Installation requirements and run instructions
+```
+1. Clone repository, then open in VS Code
+2. npm install
+3. <run server>
+4. Go to http://localhost:8080 in browser
+```
 
 ## Dependency List
 - Axios: 0.26.1
@@ -28,8 +34,6 @@ This website is intended to serve as a COVID-19 dashboard. Users can see COVID-1
 - Body-parser: 1.20.0
 - Cors: 2.8.5
 - Express: 4.18.0
-
-## Run instructions
 
 ## First steps
 
