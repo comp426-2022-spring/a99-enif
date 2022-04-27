@@ -20,6 +20,17 @@ This website is intended to serve as a COVID-19 dashboard. Users can see COVID-1
 - [API endpoint documentation](https://github.com/comp426-2022-spring/a99-enif/blob/documentation/docs/api_endpoints.md)
 - [Initial wireframe](https://github.com/comp426-2022-spring/a99-enif/blob/documentation/docs/planning/wireframe.JPG)
 
+## Installation requirements/instructions
+
+## Dependency List
+- Axios: 0.26.1
+- Better-sqlite3: 7.5.1
+- Body-parser: 1.20.0
+- Cors: 2.8.5
+- Express: 4.18.0
+
+## Run instructions
+
 ## First steps
 
 Other steps that you will need to take after your team has accepted the assignment:
