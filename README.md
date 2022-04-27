@@ -17,8 +17,8 @@ This website is intended to serve as a COVID-19 dashboard. Users can see COVID-1
 - Haobu: Frontend Lead 
 
 ## Links
-- API endpoint documentation: https://github.com/comp426-2022-spring/a99-enif/blob/documentation/docs/api_endpoints.md
-- Initial wireframe: https://github.com/comp426-2022-spring/a99-enif/blob/documentation/docs/planning/wireframe.JPG
+- [API endpoint documentation](https://github.com/comp426-2022-spring/a99-enif/blob/documentation/docs/api_endpoints.md)
+- [Initial wireframe](https://github.com/comp426-2022-spring/a99-enif/blob/documentation/docs/planning/wireframe.JPG)
 
 ## First steps
 
