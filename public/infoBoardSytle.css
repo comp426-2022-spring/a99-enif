@@ -1,0 +1,21 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.background{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4), transparent), url("./assets/background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.table_info{
+    border: 1px solid black;
+    position: absolute;
+    right: 100px;
+    top: 85px;
+    background: rgb(250, 233, 233);
+}
