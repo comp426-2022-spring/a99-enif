@@ -1,8 +1,8 @@
 "use strict";
 const Database = require('better-sqlite3');
-const db = new Database('registration.db');
+const log_db = new Database('registration.db');
 
-const stmt = db.prepare(`
+const stmt = log_db.prepare(`
     SELECT name FROM sqlite_master WHERE type='table' and name='accesslog';`
 );
 
@@ -26,11 +26,11 @@ if (row === undefined) {
             useragent TEXT
         );
     `;
-    db.exec(sqlInit);
+    log_db.exec(sqlInit);
     console.log('Logging database created.');
 } 
 else {
-    console.log('Database exists.')
+    console.log('Logging Database exists.')
 }
 
-module.exports = db
+module.exports = log_db

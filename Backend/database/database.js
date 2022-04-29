@@ -12,20 +12,19 @@ let row = stmt.get();
 if (row === undefined) {
     const sqlInit = `
         CREATE TABLE userinfo ( 
-            id INTEGER PRIMARY KEY,
-            username TEXT,
-            first_name TEXT,
-            last_name TEXT,
-            email TEXT,
-            city TEXT,
-            state TEXT,
+            username VARCHAR PRIMARY KEY,
+            first_name VARCHAR,
+            last_name VARCHAR,
+            email VARCHAR,
+            city VARCHAR,
+            state VARCHAR,
             );
     `;
     db.exec(sqlInit);
     console.log('User database created.');
 } 
 else {
-    console.log('Database exists.')
+    console.log('User Database exists.')
 }
 
 module.exports = db
