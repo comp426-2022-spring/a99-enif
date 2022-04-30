@@ -1,0 +1,48 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+}
+.background{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(250, 219, 219, 0.4),rgba(254, 245, 245, 0.4), transparent), url("./assets/background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.table_info{
+    border: 1px solid rgba(241, 199, 199, 0.4);    
+    background: rgba(241, 199, 199, 0.4);
+    width: auto;
+    font-size: 1.3vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+#US_table, #state_table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}   
+
+#us_tabale_name{
+    margin-top: 2%;
+}
+
+#state_table_name{
+    margin-top: 2%;
+}
+th{
+    text-align: center;
+    margin: 20px;
+}
+td{
+    text-align: center;
+    margin: 20px;
+}
