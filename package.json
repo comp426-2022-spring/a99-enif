@@ -11,13 +11,14 @@
     "url": "git+https://github.com/comp426-2022-spring/a99-enif.git"
   },
   "author": "Abraham Alonge, Shiying Cai, Ethan Jacob, Kabeer Kalra, Haobu Yin",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a99-enif/issues"
   },
   "homepage": "https://github.com/comp426-2022-spring/a99-enif#readme",
   "dependencies": {
     "axios": "^0.26.1",
+    "better-sqlite3": "^7.5.1",
     "cors": "^2.8.5",
     "express": "^4.18.0"
   }
