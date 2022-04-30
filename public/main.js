@@ -33,21 +33,11 @@ async function sendUserInfo({ url, formData }) {
 }
 
 const skip = document.getElementById('skip_btn')
-skip.addEventListener('click', skipToView())
+skip.addEventListener('onclick', skipToView())
 
 function skipToView(){
-    const url = document.baseURI+'app/flip/'
-    console.log(url)
-    fetch(url).then(
-        function(response){
-            console.log(response)
-            return response.json();
-        }
-    ).then(
-        function(result){
-            console.log(result);
-            document.getElementById('').innerHTML = 'Result: ';
-    })
+    window.location.href=`${document.baseURI}/nationwide.html` 
+    console.log("hi")
 }
 
 function loginToView(){

@@ -156,3 +156,6 @@
 #register{
     left: 450px;
 }
+div.hidden{
+    display: none;
+}

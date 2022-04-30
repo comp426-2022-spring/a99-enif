@@ -16,8 +16,8 @@
                 <input type = "text" class = "input-field" placeholder="Username">
                 <input type = "text" class = "input-field" placeholder="Password">
                 <input type = "checkbox" class = "check-box"><span id="remember-me-span">Remember Me</span>
-                <button id = 'login_btn' type = "submit" class = "submit-btn">Log in</button>
-                <button id = 'skip_btn' onclick="location.href = 'nationwide.html';"  class = "skip-btn">Skip</button>
+                <button id = 'login_btn' type = "button" onclick = 'window.location.href=`${document.baseURI}statewide.html`' class = "submit-btn">Log in</button>
+                <button id = 'skip_btn' type ="button" onclick = 'window.location.href=`${document.baseURI}nationwide.html`' class = "skip-btn">Skip</button>
             </form>
             <form id = "register" class = "input-group2">
                 <input type = "text" class = "input-field" placeholder="Username" required>
@@ -80,13 +80,6 @@
                 <button type = "submit" class = "submit-btn">Register</button>
             </form>
         </div>
-        <div id="national">
-            <h1>Nationwide Covid-19 Information</h1>
-        </div>
-        <div id="states">
-            <h1>Covid-19 Information at your location</h1>
-        </div>
-
    </div> 
 
    <script>
