@@ -24,7 +24,7 @@ function show(data) {
           <th>States</th>
           <th>Positive</th>
           <th>death</th>
-          <th>Hospitalized Currently<th>
+          <th>Hospitalized Currently</th>
          </tr>`;  
 
         tab += `<tr> 

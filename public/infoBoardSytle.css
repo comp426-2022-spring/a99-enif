@@ -2,20 +2,39 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Georgia, serif;
 }
 .background{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4), transparent), url("./assets/background.jpg");
+    background-image: linear-gradient(rgba(250, 219, 219, 0.4),rgba(254, 245, 245, 0.4), transparent), url("./assets/background.jpg");
     background-position: center;
     background-size: cover;
     position: absolute;
 }
 .table_info{
     border: 1px solid black;
-    position: absolute;
-    right: 100px;
-    top: 85px;
-    background: rgb(250, 233, 233);
+    width: auto;
+    background-color: linear-gradient(rgb(250, 233, 233),transparent);
+    font-size: 1.3vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+#US_table,#state_table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 5%;
+}   
+#us_tabale_name{
+    margin-top: 5%;
+}
+th{
+    text-align: center;
+    margin: 20px;
+}
+td{
+    text-align: center;
+    margin: 20px;
 }
