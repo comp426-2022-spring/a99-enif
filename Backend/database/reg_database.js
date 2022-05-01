@@ -1,6 +1,6 @@
 "use strict";
 const Database = require('better-sqlite3');
-const db = new Database('registration.db');
+const db = new Database('./data/db/registration.db');
 
 const stmt = db.prepare(`
     SELECT name FROM sqlite_master WHERE type='table' and name='userinfo';`
@@ -17,7 +17,7 @@ if (row === undefined) {
             last_name VARCHAR,
             email VARCHAR,
             city VARCHAR,
-            state VARCHAR,
+            state VARCHAR
             );
     `;
     db.exec(sqlInit);

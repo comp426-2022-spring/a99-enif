@@ -1,6 +1,6 @@
 "use strict";
 const Database = require('better-sqlite3');
-const log_db = new Database('registration.db');
+const log_db = new Database('./data/db/log.db');
 
 const stmt = log_db.prepare(`
     SELECT name FROM sqlite_master WHERE type='table' and name='accesslog';`
@@ -20,7 +20,6 @@ if (row === undefined) {
             url TEXT,
             protocol TEXT,
             httpversion TEXT,
-            secure TEXT,
             status TEXT,
             referer TEXT,
             useragent TEXT
