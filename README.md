@@ -24,7 +24,7 @@ This website is intended to serve as a COVID-19 dashboard. Users can see COVID-1
 ```
 1. Clone repository, then open in VS Code
 2. npm install
-3. <run server>
+3. npm start
 4. Go to http://localhost:8080 in browser
 ```
 
