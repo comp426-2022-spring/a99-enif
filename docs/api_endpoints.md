@@ -65,13 +65,21 @@ curl http://localhost:8080/api/log/access/
 #### Response body
 
 ```
-
+[{"id":1,"remoteaddr":"::1","remoteuser":null,"time":"1651427499484.0","method":"GET","url":"/api/get/us","protocol":"http","httpversion":"1.1","status":"200.0","referer":null,"useragent":"curl/7.77.0"},{"id":2,"remoteaddr":"::1","remoteuser":null,"time":"1651427514258.0","method":"GET","url":"/api/get/state/nc","protocol":"http","httpversion":"1.1","status":"200.0","referer":null,"useragent":"curl/7.77.0"}]
 ```
 
 #### Response headers
 
 ```
-
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 411
+ETag: W/"19b-CMe7tjvboKZY6aPIXmwpllO3QLA"
+Date: Sun, 01 May 2022 17:52:31 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
 ```
 
 ### /app/user/login/ (POST)
