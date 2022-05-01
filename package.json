@@ -4,8 +4,8 @@
   "description": "Covid-19 info dashboard",
   "main": "index.js",
   "scripts": {
-    "test": "npm start",
-    "start": "node ./Backend/server.js"
+    "test": "node ./Backend/server.js",
+    "start": "npm install express@4.17.3 && node ./Backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "axios": "^0.26.1",
     "better-sqlite3": "^7.5.1",
     "cors": "^2.8.5",
-    "express": "^4.18.0",
+    "express": "^4.17.3",
     "fs": "^0.0.1-security",
     "morgan": "^1.10.0"
   }
