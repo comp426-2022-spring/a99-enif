@@ -34,6 +34,8 @@ This website is intended to serve as a COVID-19 dashboard. Users can see COVID-1
 - Body-parser: 1.20.0
 - Cors: 2.8.5
 - Express: 4.18.0
+- Fs: 0.0.1-security
+- Morgan: 1.10.0
 
 ## First steps
 
