@@ -3,6 +3,9 @@
 ## Endpoints
 
 ### /api/get/us/ (GET)
+
+Get nationwide COVID-19 statistics.
+
 #### Request cURL
 ```
 curl http://localhost:8080/api/get/us/
@@ -25,6 +28,9 @@ Keep-Alive: timeout=5
 ```
 
 ### /api/get/state/:state/ (GET)
+
+Get COVID-19 statistics for a specific state.
+
 #### Request cURL
 ```
 curl http://localhost:8080/api/get/state/nc/
@@ -44,4 +50,114 @@ ETag: W/"57a-IGi93m+ex7uDg3RMJ7Zxa+co3mk"
 Date: Wed, 27 Apr 2022 17:14:16 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
+```
+
+### /app/log/access/ (GET)
+
+View the access logs.
+
+#### Request cURL
+
+```
+curl http://localhost:8080/api/log/access/
+```
+
+#### Response body
+
+```
+
+```
+
+#### Response headers
+
+```
+
+```
+
+### /app/user/login/ (POST)
+
+Log in a user (_Not yet implemented_).
+
+#### Request cURL
+
+```
+
+```
+
+#### Response body
+
+```
+
+```
+
+#### Response headers
+
+```
+
+```
+
+### /app/user/new/ (POST)
+
+Create a new user (_Not yet implemented_).
+
+#### Request cURL
+
+```
+
+```
+
+#### Response body
+
+```
+
+```
+
+#### Response headers
+
+```
+
+```
+
+### /app/user/update/ (PATCH)
+
+Update a user (_Not yet implemented_).
+
+#### Request cURL
+
+```
+
+```
+
+#### Response body
+
+```
+
+```
+
+#### Response headers
+
+```
+
+```
+
+### /app/user/delete/ (DELETE)
+
+Delete a user (_Not yet implemented_).
+
+#### Request cURL
+
+```
+
+```
+
+#### Response body
+
+```
+
+```
+
+#### Response headers
+
+```
+
 ```
