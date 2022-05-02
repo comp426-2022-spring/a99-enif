@@ -13,10 +13,8 @@ if (row === undefined) {
     const sqlInit = `
         CREATE TABLE userinfo ( 
             username VARCHAR PRIMARY KEY,
-            first_name VARCHAR,
-            last_name VARCHAR,
+            password TEXT,
             email VARCHAR,
-            city VARCHAR,
             state VARCHAR
             );
     `;

@@ -1,17 +1,18 @@
-const register = document.getElementById('login_btn')
-register.addEventListener('submit', registration())
+const register = document.getElementById('register')
+register.addEventListener("submit", registration)
+
 async function registration(event){
     event.preventDefault();
-    const url = document.baseURI+''
+    const url = document.baseURI+'app/user/add/'
     const formEvent = event.currentTarget
-				try {
-					const formData = new FormData(formEvent);
-					const regist = await sendUserInfo({ url, formData });
-                    console.log(regist);
-                    loginToView();
-				} catch (error) {
-					console.log(error);
-				}
+		try {
+			const formData = new FormData(formEvent);
+			const regist = await sendUserInfo({ url, formData });
+            console.log(regist);
+            loginToView();
+		} catch (error) {
+			console.log(error);
+		}
 }
     
 async function sendUserInfo({ url, formData }) {
@@ -37,7 +38,6 @@ skip.addEventListener('onclick', skipToView())
 
 function skipToView(){
     window.location.href=`${document.baseURI}/nationwide.html` 
-    console.log("hi")
 }
 
 function loginToView(){
