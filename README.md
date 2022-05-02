@@ -3,11 +3,10 @@
 ## Introduction
 This website is intended to serve as a COVID-19 dashboard. Users can see COVID-19 statistics for the U.S., and log into an account to see statistics for their state.
 
-## Planned Features
-- Sign up page: including name, city, state
-- Info to include: cases, deaths, recovered, areas where COVID is spreading fast-
+## Features
+- Sign up page: including username, email, password. User would choose a state for their preffered statewide info. 
+- Info to include: cases, deaths, recovered, hospitialzed number
 - Show nationwide info before logging in, add state info after logging in
-- List counties with highest or lowest rates
 
 ## Team members
 - Abraham: Design lead
